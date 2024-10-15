@@ -1,0 +1,27 @@
+.buy-courses {
+    padding: 4rem 0;
+    background-color: #f8f9fa;
+  }
+  
+  .buy-courses .card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .buy-courses .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .buy-courses .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .buy-courses .btn-primary {
+    background-color: #ff5a3c;
+    border-color: #ff5a3c;
+  }
+  
+  .buy-courses .btn-primary:hover {
+    background-color: #ff4122;
+    border-color: #ff4122;
+  }
