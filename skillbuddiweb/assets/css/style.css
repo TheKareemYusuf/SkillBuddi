@@ -332,6 +332,19 @@ select {
   text-transform: none;
 }
 
+button:hover,
+.btn:hover,
+.btn-rounded:hover {
+  color: #fff !important;
+}
+
+button:hover a,
+.btn:hover a,
+.btn-rounded:hover a {
+  color: #fff !important;
+}
+
+
 [role=button] {
   cursor: pointer;
 }
