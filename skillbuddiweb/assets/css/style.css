@@ -11229,4 +11229,40 @@ textarea.form-control-lg {
   transform: translate(-50%, -50%);
 }
 
+.nutm-support {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #f8f9fa;
+  border-top: 1px solid #dee2e6;
+}
+
+.nutm-logo {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+.nutm-text {
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-bottom: 0;
+}
+
+@media (min-width: 992px) {
+  .nutm-support {
+    position: relative;
+    margin-top: -2rem;
+    background-color: transparent;
+    border-top: none;
+  }
+
+  .nutm-logo {
+    max-width: 120px;
+  }
+
+  .nutm-text {
+    font-size: 0.8rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
